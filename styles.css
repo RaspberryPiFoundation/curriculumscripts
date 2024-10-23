@@ -1,0 +1,66 @@
+/* Styling the overall sidebar */
+body {
+  background-color: #FCF3F6; /* Pastel background */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Sidebar title styles */
+h2 {
+  color: #CD2355; /* Primary color */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Heading styles */
+h3 {
+  color: #CD2355; /* Primary color */
+  font-weight: bold;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+  color: #CD2355; /* Primary color */
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 2px solid #CD2355; /* Primary color */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+.primary-button {
+  background-color: #242D9A; /* Main background color for buttons */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #1C267D; /* Hover color */
+}
+
+.disabled-button {
+  background-color: grey; /* Disabled button style */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: not-allowed;
+}
+
+.loading-button {
+  background-color: #46AF4B; /* Loading button color */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: not-allowed;
+}
